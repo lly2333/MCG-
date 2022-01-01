@@ -1,4 +1,4 @@
-# Preprocess for MASS-SS3
+# Preprocess for MI
 
 
 ## Requirements
