@@ -9,23 +9,20 @@
 
 ## Usage
 
-- You can use the DE_PSD.py to compute DE and PSD features of a set of data.
+- You can use the process_data.py to compute DE and PSD features of a set of data.
 
-- Data preparation for MASS-SS3
+- Data preparation for MI
 
-1. Get the MASS-SS3 dataset, and extract useful data to save as .mat file.
+1. Get the dataset, and extract useful data to save as .mat file.
 
-    - Default path is /data/SS3/
-    - XX-XX-XXXX-Data.mat: include variable 'PSG' (n * channels * t, t is the number of sampling points in 30 seconds)
-    - XX-XX-XXXX-Label.mat: include variable 'label' (n * 5, one-hot)
+2. Generate 4 fold data set, using mixed subjects scheme.
 
-2. Generate 31 fold data set, using subject-independent scheme.
-
-    - Default feature storage path is /data/DE_PSD/
-    - 31 fold data set is default stored as /data/XXXX.npz
-
+    - Default feature storage path is /test/trial_feature.npz
+    - 4 fold data set is default stored as /test/XXXX.npz
+3. You can use generate_feature.py to generate the initial adjency matrix.
     ```shell
-    python process_SS3.py
+    python process_data.py
+    python generate_feature.py
     ```
 
 
