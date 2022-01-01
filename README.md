@@ -1,9 +1,13 @@
 # MCG+： An improved motor imagery classification based on Cosine similarity
 This project is the for the paper: MCGNet+: An improved motor imagery classification based on Cosine similarity
 ## Prerequistes
-* Python 3.6, tensorflow-1.2.0
+- Python 3.6
+- Tensorflow 1.12.0
+- Keras 2.2.4
+- numpy 1.15.4
+- scipy 1.1.0
+- scikit-learn 0.21.3
 * the code is built upon the tensorflow framework
-* pip install -r requirts.txt
 ## How to run
 ### dataset
 * the dataset is come from the BNCI-competition2014, which can be load in:http://moabb.neurotechx.com/docs/generated/moabb.datasets.BNCI2014001.html
