@@ -22,7 +22,7 @@
 3. You can use generate_feature.py to generate the initial adjency matrix.
     ```shell
     python process_data.py
-    python generate_feature.py
+    python feature_generate.py
     ```
 
 
